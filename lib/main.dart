@@ -19,6 +19,7 @@ void main() async {
         Provider(create: (context) => AppState()),
       ],
       child: const RestaurantSearchApp(),
+      
     ),
   );
 }
